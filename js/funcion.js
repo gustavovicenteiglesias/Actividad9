@@ -1,5 +1,7 @@
 
-function validar(){
+
+function validar (){
+   
     var pri = document.getElementById("fecha_inicio").value;
     var seg = document.getElementById("fecha_fin").value;
     var date1 = new Date (pri);
@@ -65,5 +67,8 @@ function validar(){
         default:
             break;
     }
+
 }
+
+
 

@@ -14,7 +14,7 @@
 
     <title>Formulario</title>
     <!--funcion para verificar fecha-->
-    <script src="funcion.js"></script>
+    <script src="./js/funcion.js" ></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -31,10 +31,10 @@
         </div>
         <div class="card-body">
             
-            <form id="formulario">
+            <form id="formulario" action="./php/components/inicio.php" method="POST" target="_blank">
                 <div class="form-group">
                     <label for="nombre_campania">Nombre de campaña</label>
-                    <input type="text" class="form-control" id="nombre_campania">
+                    <input type="text" class="form-control" id="nombre_campania" name="nombre_campania">
                 </div>
                 
                 <div class="form-grup">
